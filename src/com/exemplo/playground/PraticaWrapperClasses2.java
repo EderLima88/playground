@@ -9,9 +9,9 @@ public class PraticaWrapperClasses2 {
                 33, 33, 32, 78, 97, 111, 32, 99, 111, 110, 116, 101, 32, 97, 111, 115,
                 32, 100, 101, 109, 97, 105, 115, 32, 58, 41};
 
-        for (int i = 0; i < numeros.length; i++) {
+        for (int numero : numeros) {
 
-            System.out.print((char) numeros[i]);
+            System.out.print((char) numero);
         }
     }
 }
